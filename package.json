@@ -1,0 +1,34 @@
+{
+    "name": "crosssave",
+    "version": "1.0.0",
+    "description": "CrossSave is a save encryptor/decryptor for CrossCode written in TypeScript",
+    "main": "dist/CrossSave.js",
+    "scripts": {
+        "build": "tsc --build",
+        "clean": "tsc --build --clean",
+        "release": "ncc build src/CrossSave.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Xpl0itR/CrossSave.git"
+    },
+    "keywords": [
+        "CrossCode",
+        "Save"
+    ],
+    "author": "Xpl0itR",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Xpl0itR/CrossSave/issues"
+    },
+    "homepage": "https://github.com/Xpl0itR/CrossSave#readme",
+    "devDependencies": {
+        "@types/crypto-js": "^3.1.47",
+        "@types/node": "^14.0.22",
+        "@types/node-getopt": "^0.2.31",
+        "@vercel/ncc": "^0.23.0",
+        "crypto-js": "^4.0.0",
+        "node-getopt": "^0.3.2",
+        "typescript": "^3.8.3"
+    }
+}
